@@ -6,7 +6,7 @@
 /*   By: azghibat <azghibat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 23:22:46 by azghibat          #+#    #+#             */
-/*   Updated: 2024/11/03 07:35:49 by azghibat         ###   ########.fr       */
+/*   Updated: 2024/11/03 11:44:50 by azghibat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!substr)
 		return (NULL);
 	ft_strncpy(substr, s + start, len);
+	substr[len] = '\0';
 	return (substr);
 }
 

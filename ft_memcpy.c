@@ -6,7 +6,7 @@
 /*   By: azghibat <azghibat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 13:02:28 by azghibat          #+#    #+#             */
-/*   Updated: 2024/11/01 04:58:00 by azghibat         ###   ########.fr       */
+/*   Updated: 2024/11/03 12:33:01 by azghibat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,8 +33,17 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 
 // int main(void)
 // {
-// 	char src[] = "yarbi salama";
-// 	char dst[20];
-// 	printf("%s\n", ft_memcpy(dst, src, 13));
-// 	printf("%s", memcpy(dst, src, 13));
+	// char src[] = "hello";
+	// char dst[20];
+	// printf("%s\n", ft_memcpy(dst, src, 6));
+	// int arr[3] = {1, 2, 3};
+	// int tmp[3];
+	// int len = 3;
+	// int i = 0;
+	// while (i < len)
+	// {
+	// 	ft_memcpy(&tmp[i], &arr[i], len);
+	// 	printf("%d", arr[i]);
+	// 	i++;
+	// }
 // }

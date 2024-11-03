@@ -6,7 +6,7 @@
 /*   By: azghibat <azghibat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 21:01:27 by azghibat          #+#    #+#             */
-/*   Updated: 2024/11/02 07:07:07 by azghibat         ###   ########.fr       */
+/*   Updated: 2024/11/03 11:48:31 by azghibat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,14 +26,14 @@ char	*ft_strrchr(const char *s, int c)
 		s++;
 	}
 	if (d == '\0')
-		return ((char *)s);
+		lastocc = (char *)s;
 	return (lastocc);
 }
 
 // int main(void)
 // {
 // 	char *s = "anass";
-// 	char c = 's';
+// 	char c;
 // 	char *result = ft_strrchr(s, c);
 // 	char *result2 = strrchr(s, c);
 // 	if (result != NULL)

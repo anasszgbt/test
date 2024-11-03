@@ -6,7 +6,7 @@
 /*   By: azghibat <azghibat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 01:20:04 by azghibat          #+#    #+#             */
-/*   Updated: 2024/11/03 07:36:50 by azghibat         ###   ########.fr       */
+/*   Updated: 2024/11/03 15:41:47 by azghibat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,15 +34,6 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	}
 	return (list);
 }
-
-// void *f(void *i)
-// {
-// 	int *s = (int *)malloc(4);
-// 	if (!s)
-// 		return NULL;
-// 	*s = *(int *)i + 1;
-// 	return ((void *)s);
-// }
 
 // void del(void *content)
 // {	
@@ -75,5 +66,4 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 // 		printf("%d -> ", *(int *)head->content);
 // 		head = head->next;
 // 	}
-
 // }

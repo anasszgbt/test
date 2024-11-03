@@ -6,7 +6,7 @@
 /*   By: azghibat <azghibat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 01:33:16 by azghibat          #+#    #+#             */
-/*   Updated: 2024/11/03 05:07:54 by azghibat         ###   ########.fr       */
+/*   Updated: 2024/11/03 15:47:31 by azghibat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,7 +38,7 @@ int	ft_atoi(const char *str)
 
 // int main(void)
 // {
-// 	char result[] = "-9223372036854775808";
+// 	char result[] = "-92";
 // 	int atoi1 = ft_atoi(result);
 // 	printf("%d\n", atoi1);
 // 	printf("%d\n", atoi(result));

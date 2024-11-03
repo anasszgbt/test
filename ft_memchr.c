@@ -6,7 +6,7 @@
 /*   By: azghibat <azghibat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/23 22:20:48 by azghibat          #+#    #+#             */
-/*   Updated: 2024/10/24 22:10:23 by azghibat         ###   ########.fr       */
+/*   Updated: 2024/11/03 16:07:41 by azghibat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	size_t				i;
-	const unsigned char	*str;
+	size_t			i;
+	unsigned char	*str;
 
-	str = (const unsigned char *)s;
+	str = (unsigned char *)s;
 	i = 0;
 	while (i < n)
 	{

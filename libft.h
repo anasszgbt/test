@@ -6,18 +6,15 @@
 /*   By: azghibat <azghibat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 15:12:04 by azghibat          #+#    #+#             */
-/*   Updated: 2024/11/03 05:07:23 by azghibat         ###   ########.fr       */
+/*   Updated: 2024/11/03 14:25:43 by azghibat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
 # include <stdlib.h>
-# include <stddef.h>
 # include <unistd.h>
-# include <string.h>
 
 typedef struct s_list
 {

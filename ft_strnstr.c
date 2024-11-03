@@ -6,7 +6,7 @@
 /*   By: azghibat <azghibat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 22:38:11 by azghibat          #+#    #+#             */
-/*   Updated: 2024/11/03 01:11:28 by azghibat         ###   ########.fr       */
+/*   Updated: 2024/11/03 16:12:05 by azghibat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 // int main(void)
 // {
 // 	char haysta[] = "salama yarbi";
-// 	char needle[] = "a";
+// 	char needle[] = "";
 // 	char *result = ft_strnstr(haysta, needle, 12);
 // 	// char *result2 = strnstr(h, n, 11);
 // 	printf("%s\n", result);

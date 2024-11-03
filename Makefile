@@ -9,15 +9,15 @@ OBJS = $(SRCS:.c=.o)
 
 OBJSBONUS = $(SRCSBONUS:.c=.o)
 
-.c.o:
+all: $(NAME)
+
+%o: %c libft.h
 	$(CC) -c $< -o $@
 
 $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
 
-all: $(NAME)
-
-bonus: $(NAME) $(OBJSBONUS)
+bonus: $(OBJSBONUS)
 	ar rcs $(NAME) $(OBJSBONUS)
 
 clean:

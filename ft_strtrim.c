@@ -6,7 +6,7 @@
 /*   By: azghibat <azghibat@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/27 02:46:22 by azghibat          #+#    #+#             */
-/*   Updated: 2024/11/03 01:10:35 by azghibat         ###   ########.fr       */
+/*   Updated: 2024/11/03 14:26:13 by azghibat         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 
 // int main(void)
 // {
-// 	char s1[] = "aahhhaaa";
-// 	char set[] = "h";
+// 	char s1[] = " aahhhaaa ";
+// 	char set[] = " ";
 // 	printf("%s\n", ft_strtrim(s1, set));
 // }
